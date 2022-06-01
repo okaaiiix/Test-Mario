@@ -13,7 +13,7 @@ public class MenuController : MonoBehaviour
     {
         foreach (Transform eachChild in transform)
         {
-            if (eachChild.tag != "score" & eachChild.tag != "health")
+            if (eachChild.tag != "score" & eachChild.tag != "health" & eachChild.tag != "background")
             {
                 Debug.Log("Child found. Name: " + eachChild.tag);
                 // disable them
