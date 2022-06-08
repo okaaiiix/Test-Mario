@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private bool invulnerability = false;
     private Animator marioAnimator;
     private AudioSource marioAudio;
+    private Image background;
     // Start is called before the first frame update
     void Start()
     {
